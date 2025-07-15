@@ -26,7 +26,7 @@ html_temp = """
 """
 st.markdown(html_temp, unsafe_allow_html=True)
 
-image_path = 'img.jpg'
+image_path = 'IMG_3464.jpeg'
 image = Image.open(image_path)
 st.image(image, use_container_width=True)
 
